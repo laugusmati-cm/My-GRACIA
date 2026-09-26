@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gracia</title>
+    <link rel="stylesheet" href="css/cliente.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">
+            <h1>My Gracia</h1>
+            <p>Nail spa</p>
+        </div>
+        <div class="icono">
+           <span>🔔</span>
+        </div>
+    </header>
+    <!--contenedor-->
+    <div class="contenedor">
+        <!--menu lateral-->
+        <div class="contenedor"> 
+        <aside class="sidebar">
+            <h2>
+                Portal Cliente</h2>
+            <ul class="menu-list" >
+                <li><a href="index.html" class="menu-link"> 🏠 Inicio</a></li>
+                <li><a href="citas.html" class="menu-link"> 🗓️ Citas</a></li>
+                <li><a href="historial.html" class="menu-link"> 📄 Historial</a></li>
+                 <li><a href="Perfil_Usuario.html" class="menu-link"> 👤 Perfil</a></li>
+            </ul>            
+        </aside>
+        <!--CONTENIDO-->
+        <MAIN class="contenido">
+            <!--TITULO-->
+            <section class="titulo-pagina">
+                <h2>Mis Citas</h2>
+                <p>Consulta, reserva y administra tus citas en My Gracia</p>
+            </section>
+            <!--BOTON RESERVA-->
+            <section class="acciones-citas">
+                <button class="boton-reservar">Agendar nueva cita</button>
+            </section>
+            <!--CITAS AGENDADAS-->
+            <section class="seccion-citas">
+                <h3>Proxima cita</h3>
+                <div class="cita-card">
+                    <div class="fecha-cita">
+                        <span class="dia">25</span>
+                        <span class="mes">SEP</span>
+                    </div>
+                    <div class="informacion-cita">
+                        <h3>Manicure Tradicional</h3>
+                        <p>hora: 10:00 AM</p>
+                        <p>local: My Gracia Centro</p>
+                        <p>precio: 40.000</p>
+                    </div>
+                    <div class="estado-cita">
+                        <span class="estado-confirmada">Confirmada</span>
+                        <div class="botones-cita">
+                            <button class="boton-ver">Ver</button>
+                            <button class="boton-cancelar"> Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--OTRAS CITAS-->
+            <Section class="seccion-citas">
+                <h3>Mis citas</h3>
+                <div class="lista-citas">
+                    <!--CITA 1-->
+                    <div class="cita-item">
+                        <div class="fecha-item">
+                            <strong>30</strong>
+                            <span>SEP</span>
+                        </div>
+                        <div class="datos-item">
+                            <h4>Pedicure</h4>
+                            <p>hora: 2:PM</p>
+                            <P>Empleada: Andrea</P>
+                            <P>precio: 20.00</P>
+                        </div>
+                        <div class="estado-item">
+                            <span class="estado-pendiente">Pendiente</span>
+                        </div>
+                        <div class="acciones-item">
+                            <button class="boton-ver">Ver</button>
+                            <button class="boton-modificar">Modificar</button>
+                        </div>
+                    </div>
+                    <!--CITA 2-->
+                    <div class="cita-item">
+                        <div class="fecha-item">
+                            <strong>05</strong>
+                            <span>OCT</span>
+                        </div>
+                        <div class="datos-item">
+                            <h4>Manicure</h4>
+                            <p>4:PM</p>
+                            <P>Empleada: Laura</P>
+                            <P>precio: 17.00</P>
+                        </div>
+                        <div class="estado-item">
+                            <span class="estado-reprogramada">Reprogramada</span>
+                        </div>
+                        <div class="acciones-item">
+                            <button class="boton-ver">Ver</button>
+                            <button class="boton-modificar">Modificar</button>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+
+
+        </MAIN>
+
+    </div>    
+
+</body>
+</html>

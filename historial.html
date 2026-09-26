@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gracia</title>
+    <link rel="stylesheet" href="css/cliente.css">
+</head>
+<body>
+        <!-- ENCABEZADO -->
+    <header class="encabezado">
+
+        <div class="logo">
+            <h1>Mi Gracia</h1>
+            <p>Nail Spa</p>
+        </div>
+
+        <div class="iconos">
+            <span>🔔</span>
+            <span>👤</span>
+        </div>
+
+    </header>
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="contenedor">
+
+        <!-- MENÚ LATERAL -->
+        <div class="contenedor"> 
+        <aside class="sidebar">
+            <h2>
+                Portal Cliente</h2>
+            <ul class="menu-list" >
+                <li><a href="index.html" class="menu-link"> 🏠 Inicio</a></li>
+                <li><a href="citas.html" class="menu-link"> 🗓️ Citas</a></li>
+                <li><a href="historial.html" class="menu-link"> 📄 Historial</a></li>
+                 <li><a href="Perfil_Usuario.html" class="menu-link"> 👤 Perfil</a></li>
+            </ul>            
+        </aside>
+
+        <!-- CONTENIDO -->
+        <main class="contenido">
+            <!-- TÍTULO -->
+            <section class="titulo-pagina">
+                <h2>Historial de servicios</h2>
+                <p>Consulta los servicios que has realizado en Mi Gracia.</p>
+            </section>
+
+            <!-- RESUMEN -->
+            <section class="resumen-historial">
+                <div class="resumen-card">
+                    <span class="resumen-icono">💅</span>
+                    <div>
+                        <p>Total de servicios</p>
+                        <h3>8</h3>
+                    </div>
+                </div>
+                <div class="resumen-card">
+                    <span class="resumen-icono">💰</span>
+                    <div>
+                        <p>Total pagado</p>
+                        <h3>$320.000</h3>
+                    </div>
+                </div>
+                <div class="resumen-card">
+                    <span class="resumen-icono">📅</span>
+                    <div>
+                        <p>Última cita</p>
+                        <h3>20 SEP 2026</h3>
+                    </div>
+                </div>
+            </section>
+            <!-- FILTROS -->
+            <section class="filtros-historial">
+                <div class="filtro">
+                    <label for="servicio">
+                        Servicio
+                    </label>
+                    <select id="servicio">
+                        <option value="">
+                            Todos los servicios
+                        </option>
+                        <option>
+                            Manicure
+                        </option>
+                        <option>
+                            Pedicure
+                        </option>
+                        <option>
+                            Diseño de uñas
+                        </option>
+                    </select>
+                </div>
+                <div class="filtro">
+                    <label for="fecha">
+                        Fecha
+                    </label>
+                    <select id="fecha">
+                        <option>
+                            Más recientes
+                        </option>
+                        <option>
+                            Más antiguos
+                        </option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- HISTORIAL -->
+            <section class="historial">
+                <h3>Servicios realizados</h3>
+                <!-- SERVICIO 1 -->
+                <div class="historial-card">
+                    <div class="historial-fecha">
+                        <strong>20</strong>
+                        <span>SEP</span>
+                        <small>2026</small>
+                    </div>
+                    <div class="historial-info">
+                        <h4>Manicure tradicional</h4>
+                        <p>👩 Empleada: Laura Gómez</p>
+                        <p>📍 Local: Mi Gracia Centro</p>
+                        <p>🕐 Hora: 10:00 AM</p>
+                    </div>
+                    <div class="historial-pago">
+                        <p>Valor del servicio</p>
+                        <strong>$40.000</strong>
+                        <span class="pago-realizado">
+                            ✓ Pagado
+                        </span>
+                    </div>
+                    <div class="historial-accion">
+                        <button class="boton-ver">
+                            Ver detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- SERVICIO 2 -->
+                <div class="historial-card">
+                    <div class="historial-fecha">
+                        <strong>10</strong>
+                        <span>SEP</span>
+                        <small>2026</small>
+                    </div>
+                    <div class="historial-info">
+                        <h4>Pedicure</h4>
+                        <p>👩 Empleada: Camila Rodríguez</p>
+                        <p>📍 Local: Mi Gracia Centro</p>
+                        <p>🕐 Hora: 2:00 PM</p>
+                    </div>
+                    <div class="historial-pago">
+                        <p>Valor del servicio</p>
+                        <strong>$50.000</strong>
+                        <span class="pago-realizado">
+                            ✓ Pagado
+                        </span>
+                    </div>
+                    <div class="historial-accion">
+                        <button class="boton-ver">
+                            Ver detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- SERVICIO 3 -->
+                <div class="historial-card">
+                    <div class="historial-fecha">
+                        <strong>28</strong>
+                        <span>AGO</span>
+                        <small>2026</small>
+                    </div>
+                    <div class="historial-info">
+                        <h4>Manicure + Diseño</h4>
+                        <p>👩 Empleada: Laura Gómez</p>
+                        <p>📍 Local: Mi Gracia Norte</p>
+                        <p>🕐 Hora: 4:00 PM</p>
+                    </div>
+                    <div class="historial-pago">
+                        <p>Valor del servicio</p>
+                        <strong>$70.000</strong>
+                        <span class="pago-realizado">
+                            ✓ Pagado
+                        </span>
+                    </div>
+                    <div class="historial-accion">
+                        <button class="boton-ver">
+                            Ver detalle
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    
+</body>
+</html>
